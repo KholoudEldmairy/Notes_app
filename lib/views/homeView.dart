@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/views/addNoteButtomSheet.dart';
+import 'package:notes_app/widgets/constants.dart';
 import 'package:notes_app/widgets/homeViewBody.dart';
 
 class homeview extends StatelessWidget {
@@ -20,7 +21,7 @@ class homeview extends StatelessWidget {
               });
         },
         shape: CircleBorder(),
-        backgroundColor: const Color.fromARGB(255, 116, 184, 239),
+        backgroundColor: kPrimaryColor,
         child: Icon(
           Icons.add,
           color: Colors.black,

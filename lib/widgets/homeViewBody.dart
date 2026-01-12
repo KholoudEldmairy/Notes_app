@@ -13,7 +13,7 @@ class homeViewBody extends StatelessWidget {
       child: Column(
         children: const [
           CustomAppBar(),
-          noteListView() ],
+          Expanded(child: noteListView()) ],
       ),
     );
   }

@@ -1,3 +1,6 @@
 {
-  "cmake.sourceDirectory": "D:/flutter_project/Projects/notes_app/windows"
+  "cmake.sourceDirectory": "D:/flutter_project/Projects/notes_app/windows",
+  "cSpell.words": [
+    "Customsearch"
+  ]
 }

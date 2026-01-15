@@ -11,8 +11,8 @@ class homeViewBody extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
-        children: const [
-          CustomAppBar(),
+        children:  [
+        const  CustomAppBar(),
           Expanded(child: noteListView()) ],
       ),
     );

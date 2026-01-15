@@ -15,8 +15,10 @@ class homeview extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(18),
             ),
-              context: context,
-              builder: (context) {
+                context: context, 
+                  isScrollControlled: true, // ⭐ مهم جدًا
+
+                builder: (context) {
                 return const AddNoteButtomSheet();
               });
         },

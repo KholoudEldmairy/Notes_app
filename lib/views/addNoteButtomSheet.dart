@@ -23,7 +23,7 @@ class AddNoteButtomSheet extends StatelessWidget {
                 CustomtextField(hint: "Contect", maxLines: 4),
                 SizedBox(height: 50,),
 
-                customButton(),
+                customButton(title: "Add",),
                 SizedBox(height: 30,),
 
 
